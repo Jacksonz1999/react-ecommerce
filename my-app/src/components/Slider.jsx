@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components"
 import {sliderItems} from "../pages/data"
+import React from 'react'
 //import portada1 from "../assets/img/portada1.jpg"
 
 const Container= styled.div`
@@ -46,7 +47,7 @@ const Arrow = styled.div`
     justify-content: center;
     padding: 5px;
     position: absolute;
-    top 0;
+    top: 0;
     bottom: 0;
     margin: auto;
     left: ${props => props.direction ==="left" && "10px"};

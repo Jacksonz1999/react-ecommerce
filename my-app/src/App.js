@@ -1,22 +1,21 @@
+import React from 'react';
 import Cart from './pages/Cart';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Product from './pages/Product';
 import ProductList from './pages/ProductList';
 import Register from './pages/Register';
-/* import {BrowserRouter as Router } from "react-router-dom"; */
-function App() {
+import {BrowserRouter} from "react-router-dom"; 
+/* import Router from './Router/Router'; */
+
+function App() { 
 
   return (
     <>
-   {/*  <Router> */}
-      <Home />
-      <Login/>
-      <Product/>
-      <ProductList/>
-      <Register/>
-      <Cart/>
-    {/* </Router> */}
+      <BrowserRouter>
+      {/* <Router/> */}
+      <Home/>
+      </BrowserRouter>
     </>
    
   );

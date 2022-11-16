@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import React from 'react'
 /* import {Register} from "./Register"; */
 
 const Container = styled.div`

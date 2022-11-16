@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import {categories} from "../pages/data"
 import CategoriesItem from "./CategoriesItem";
+import React from 'react'
 
 
 const Container= styled.div`
